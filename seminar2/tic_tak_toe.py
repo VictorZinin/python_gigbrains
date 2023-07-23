@@ -26,6 +26,8 @@ var_5 = False
 var_6 = False
 var_7 = False
 var_8 = False
+
+
 while (var_1 != True) and (var_2 != True) and (var_3 != True) and (var_4 != True) and (var_5 != True) and (var_6 != True) and (var_7 != True) and (var_8 != True) and count != 10:
     if count % 2 == 1:
         x, y = map(int, input(f"{name_first}, введи координаты: ").split())

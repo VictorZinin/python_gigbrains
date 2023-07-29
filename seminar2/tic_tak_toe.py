@@ -108,5 +108,10 @@ if count % 2 != 0 and count != 10:
     print(f'Поздравляю, {name_sec}! Ты выиграл!!!')
 elif count % 2 == 0 and count != 10:
     print(f'Поздравляю, {name_first}! Ты выиграл!!!')
+elif  count == 10 and (var_1 != True) and (var_2 != True) and (var_3 != True) and (var_4 != True) and (var_5 != True) and (var_6 != True) and (var_7 != True) and (var_8 != True):
+    if count % 2 != 0 and count != 10:
+        print(f'Поздравляю, {name_sec}! Ты выиграл!!!')
+    elif count % 2 == 0 and count != 10:
+        print(f'Поздравляю, {name_first}! Ты выиграл!!!')
 else:
     print(f'У вас ничья.')
